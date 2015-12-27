@@ -216,7 +216,7 @@ first / second
 ####参数
     wd
 ####返回字段
-    id(即novelid) / title / novelpv / picture(在地址前加 http://api.9miao.com/static/spider/) / author / first / second / introduction
+    id(即novelid) / title / novelpv / picture() / author / first / second / introduction
     
 ###小说下载 
 ####接口地址
@@ -276,9 +276,3 @@ first / second
     username
 ####返回字段
     存在code: 601 不存在 code: 602
-
-##开发计划
-* 2015-12-18 将数据库中的小说转化为json,并形成txt文件,开发响应脚本,脚本名称 novelfile ***done***
-* 2015-12-14 提供小说文件下载接口  ***done***
-* 2015-12-14 将数据库中的小说文本转化为txt文件 ***done***
-* 2015-12-9 增加redis缓存
